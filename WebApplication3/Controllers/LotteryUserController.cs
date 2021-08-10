@@ -15,7 +15,7 @@ using WebApplication3.Models;
 namespace WebApplication3.Controllers
 {
     [ApiController]
-    [ApiVersion("1.0")]
+    [ApiVersion("1.2")]
     [Route("v{version:apiVersion}/[controller]")]
     public class LotteryUserController : ControllerBase
     {

@@ -8,7 +8,8 @@ using Microsoft.Extensions.Logging;
 namespace WebApplication3.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [ApiVersion("1.5")]
+    [Route("v{version:apiVersion}/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

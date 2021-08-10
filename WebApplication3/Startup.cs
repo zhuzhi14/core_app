@@ -278,7 +278,7 @@ namespace WebApplication3
     }
     
     /*
-     * 加载swagger 配置
+     * 加载swagger 配置 与appversion 进行一起处理
      */
     public class SwaggerGenConfigurationOptions : IConfigureOptions<SwaggerGenOptions>
     {
@@ -296,7 +296,8 @@ namespace WebApplication3
                     new OpenApiInfo
                     {
                         Title = "AgileTea Learning API",
-                        Version = description.ApiVersion.ToString()
+                        Version = description.ApiVersion.ToString(),
+                        Description = "切换版本请点右上角版本切换"
                     });
             }
         }
