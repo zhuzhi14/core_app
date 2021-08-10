@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication3</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication3.Controllers.LotteryUserController.GetUser(System.Int32)">
+            <summary>
+            Deletes a specific TodoItem.
+            </summary>
+            <param name="id"></param>      
+        </member>
+        <member name="M:WebApplication3.Controllers.LotteryUserController.Delete(System.Int64)">
+            <summary>
+            删除i🍔🍔🍔🍔🍔
+            </summary>
+            <param name="id"></param>        
+        </member>
+    </members>
+</doc>
